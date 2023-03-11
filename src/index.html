@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>Excuse Generator</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -13,13 +13,26 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">OMG! you will not belive me but</h1>
-      <p id="excuse" class="mt-5"></p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <!--Card-->
+    <div class="container d-flex justify-content-center">
+      <div class="card mt-5 border-secondary" style="width:auto">
+        <h1 class="card-header ">
+          OMG! you will not belive me but
+        </h1>
+        <div class="card-body text-center">
+          <p id="excuse" class="card-text fs-4"></p>
+        </div>
+        <div class="container d-flex justify-content-center mb-2 ">
+          <a href="javascript:location.reload()" class="btn btn-warning"
+            >NEW EXCUSE
+          </a>
+        </div>
       </div>
+    </div>
+
+    <div class="fixed-bottom p-4 text-center">
+      Made with ❤️ by
+      <a href="https://github.com/juansj23">Juan Silva</a>
     </div>
   </body>
 </html>

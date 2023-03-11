@@ -1,1 +1,7 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card-header {
+  background-color: rgb(31, 165, 58);
+}
+h1 {
+  color: white;
+}
